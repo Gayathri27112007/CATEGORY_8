@@ -110,3 +110,30 @@ if backward_chaining(goal, facts):
     print("Diagnosis:", goal)
 else:
     print("Diagnosis cannot be determined.")
+
+
+
+
+
+
+*OUTPUT*
+
+================================
+     Medical Diagnosis System
+================================
+
+Initial Facts:
+- fever
+- cough
+- body_pain
+
+Forward Chaining:
+- fever
+- cough
+- body_pain
+- flu
+- viral_infection
+- infection
+
+Backward Chaining:
+Diagnosis: flu
